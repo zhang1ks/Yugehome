@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link {
+  color: green;
+  font-size: 17px;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container {
+	margin:auto !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin-main {
+  background-color: rgb(211, 219, 226);
+  border-color: rgb(41, 48, 54) !important;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn{
+  color: rgb(213, 225, 235) !important;
+  background-color: rgb(41, 48, 54)
+}
